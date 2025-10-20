@@ -1,0 +1,5 @@
+
+This site contains development work in three main repositories. In order to get a bigger picture,please visit www.securedatabits.com/about-page for mission 
+and www.securedatabits.com/blog-page for technical objectives. Here on this site, First repository is related to AI training and inference specific datacenter
+acceleration/security/reliability IP's,second repository contains AI inference IP's specific to domain IOTs and embedded devices with focus on 
+acceleration/security/reliability attributes and finally third repository contains Small Language Model enabled Bio Analytics for genomic/drug-discovery.
