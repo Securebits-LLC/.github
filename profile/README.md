@@ -7,6 +7,6 @@ This site contains development work in three main repositories. In order to get 
 
 08/14/2026: Added misc-perf-model folder under Datacenter-Processing-Elements/src-sim path to include simulator for interconnect networks for on silicon elements (current topologies in model include XBAR (with/without weighted version), Mesh_XY, MeshDirCorners_XY, Point2Point. Model does have link level , route level (including algorithms) configurable parameters with virtual channel and flit level specification for input/output queues.Model can output latency, bandwidth and flow control related stall cycles in standalone mode for various topologies, work in progress to integrate withrest of SOC elements. 
 
-10/08/2026: Adding under misc-perf-model the CXL evaluation framework to evaluate host memory, shared memory, RDMA/TCP transport, and experimental host GPU:
+10/08/2026: Adding under Datacenter-Processing-Elements/src-sim/coh-interconnect/CXL the CXL evaluation framework to evaluate host memory, shared memory, RDMA/TCP transport, and experimental host GPU:
   -Type-2 CXL device model simulate performance related to "memory latency, bandwidth, topology, HDM decode and coherency" with configurable setup which accounts for      target DRAM latency, CXL fabric latency, bandwidth, topology, ROB effects(in case with CPU), and cache-line states when estimating application-visible performance
   -Type 3 memory devices, distributed memory pooling, and experimental Type 2 accelerator/GPU
